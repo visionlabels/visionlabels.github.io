@@ -1,0 +1,40 @@
+---
+title: "Jiří Lukavský"
+image: jirilukavsky-smallx.jpg
+categories: Researcher
+description: ""
+about:
+  template: trestles # jolla
+  image: jirilukavsky.jpg
+  image-shape: round
+  # links:
+  # - text: Scholar
+  #   href: https://scholar.google.com/citations?user=K6NaHlMAAAAJ
+  #   icon: mortarboard-fill
+  # - text: Github
+  #   href: https://github.com/jirilukavsky
+  #   icon: github
+  # - text: Mastodon
+  #   href: https://scholar.social/@jlukavsky
+  #   icon: mastodon
+  #   rel: "me"
+  # - text: OSF
+  #   href: https://osf.io/3elgf/
+---
+
+I am interested in **human vision**, **attention** and **memory**.
+
+---
+
+If you see a photograph, what do you actually remember? 
+Can you pay attention to multiple objects simultaneously? 
+What is the attention and what is a strategy?
+
+See also [my personal page](https://lukavsky.info).
+
+---
+
+[Scholar](https://scholar.google.com/citations?user=K6NaHlMAAAAJ) - 
+[Github](https://github.com/jirilukavsky) - 
+[Mastodon](https://scholar.social/@jlukavsky) - 
+[OSF](https://osf.io/3elgf/)

@@ -1,5 +1,10 @@
 ---
-title: "About"
+title: "Vision Labels"
+description: "Vision science research group"
+about:
+  template: trestles # jolla
+  image: filipdechterenko.jpg
+  image-shape: round
 ---
 
-About this site
+Vision science research group within LABELS laboratory - joint lab of the Institute of Psychology and Faculty of Arts, Charles University.

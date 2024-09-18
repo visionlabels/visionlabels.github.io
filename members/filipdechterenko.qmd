@@ -1,0 +1,12 @@
+---
+title: "Filip Děchtěrenko"
+image: filipdechterenko-small.jpg
+categories: Researcher
+description: ""
+about:
+  template: trestles # jolla
+  image: filipdechterenko.jpg
+  image-shape: round
+---
+  
+About this site

@@ -1,0 +1,16 @@
+---
+title: "People"
+listing: 
+  contents: members
+  type: grid
+  image-height: 250px
+  grid-item-border: false
+  categories: true
+  fields: [image, title, ]
+  grid-item-align: center
+---
+
+Direct links [JL](./members/jirilukavsky.html),
+[FD](./members/filipdechterenko.html)
+
+One day, there will be a website

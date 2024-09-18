@@ -1,5 +1,17 @@
 ---
-title: "Visionlabels"
+title: "Vision Labels"
+description: "Vision science research group"
+about:
+  template: trestles # jolla
+  image: puzzle.png
+  image-shape: rectangle
 ---
 
-One day, there will be a website
+Vision science research group within [LABELS laboratory](https://labels.ff.cuni.cz/) - joint lab of the 
+[Institute of Psychology, Czech Academy of Sciences ](https://psu.cas.cz/en/)
+and 
+[Faculty of Arts, Charles University](https://www.ff.cuni.cz/).
+
+We are interested in a variety of topics, ranging from eye-tracking and attention research to the scene perception and memory. We combine experimental research with computational modelling.
+
+[More about our team](people.qmd)
