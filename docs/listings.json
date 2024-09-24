@@ -5,5 +5,13 @@
       "/members/filipdechterenko.html",
       "/members/jirilukavsky.html"
     ]
+  },
+  {
+    "listing": "/projects.html",
+    "items": []
+  },
+  {
+    "listing": "/publications.html",
+    "items": []
   }
 ]

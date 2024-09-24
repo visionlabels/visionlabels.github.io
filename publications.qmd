@@ -1,0 +1,16 @@
+---
+title: "Publications"
+listing: 
+  contents: 
+    - publications.yml
+  sort: "Year desc"
+  fields: ["Publication", "Year", ]
+  field-types:
+    Year: number
+  #   End: number
+  type: table
+  categories: true
+---
+
+Selected papers relevant to visual perception, attention and memory. 
+ 
