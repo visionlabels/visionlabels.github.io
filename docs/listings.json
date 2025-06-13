@@ -1,17 +1,18 @@
 [
   {
-    "listing": "/publications.html",
+    "listing": "/projects.html",
     "items": []
   },
   {
     "listing": "/people.html",
     "items": [
       "/members/filipdechterenko.html",
-      "/members/jirilukavsky.html"
+      "/members/jirilukavsky.html",
+      "/members/josefmana.html"
     ]
   },
   {
-    "listing": "/projects.html",
+    "listing": "/publications.html",
     "items": []
   }
 ]

@@ -1,0 +1,12 @@
+---
+title: "Josef Mana"
+image: person_he.jpg
+categories: Post-doc
+description: ""
+about:
+  template: trestles # jolla
+  image: person_he.jpg
+  image-shape: round
+---
+  
+About Josef
