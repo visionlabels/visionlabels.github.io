@@ -10,7 +10,7 @@ listing:
   grid-item-align: center
 ---
 
-Direct links [JL](./members/jirilukavsky.html),
+<!-- Direct links [JL](./members/jirilukavsky.html),
 [FD](./members/filipdechterenko.html)
 
-One day, there will be a website
+One day, there will be a website -->
