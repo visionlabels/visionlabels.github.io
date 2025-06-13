@@ -1,5 +1,9 @@
 [
   {
+    "listing": "/publications.html",
+    "items": []
+  },
+  {
     "listing": "/people.html",
     "items": [
       "/members/filipdechterenko.html",
@@ -8,10 +12,6 @@
   },
   {
     "listing": "/projects.html",
-    "items": []
-  },
-  {
-    "listing": "/publications.html",
     "items": []
   }
 ]
