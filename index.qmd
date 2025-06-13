@@ -3,7 +3,7 @@ title: "Vision Labels"
 description: "Vision science research group"
 about:
   template: trestles # jolla
-  image: puzzle.png
+  image: puzzle.jpg
   image-shape: rectangle
 ---
 
