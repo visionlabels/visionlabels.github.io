@@ -10,3 +10,11 @@ about:
 ---
   
 About Filip
+
+---
+
+[Scholar](https://scholar.google.com/citations?user=EDBdGuEAAAAJ) - 
+[Github](https://github.com/fidadoma) - 
+[Twitter](https://twitter.com/FDechterenko) - 
+[Mastodon](https://mastodon.online/@fdechterenko) - 
+[OSF](https://osf.io/q65be/)

@@ -10,3 +10,10 @@ about:
 ---
   
 About Josef
+
+---
+
+[Scholar](https://scholar.google.com/citations?user=0CyuYaMAAAAJ) - 
+[Github](https://github.com/josefmana) - 
+<!-- [Mastodon](https://scholar.social/@jlukavsky) -  -->
+[OSF](https://osf.io/7utzj/)
