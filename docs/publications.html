@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>Jiří Lukavský – VisionLabels</title>
+<title>Publications – VisionLabels</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -23,21 +23,24 @@ ul.task-list li input[type="checkbox"] {
 </style>
 
 
-<script src="../site_libs/quarto-nav/quarto-nav.js"></script>
-<script src="../site_libs/quarto-nav/headroom.min.js"></script>
-<script src="../site_libs/clipboard/clipboard.min.js"></script>
-<script src="../site_libs/quarto-search/autocomplete.umd.js"></script>
-<script src="../site_libs/quarto-search/fuse.min.js"></script>
-<script src="../site_libs/quarto-search/quarto-search.js"></script>
-<meta name="quarto:offset" content="../">
-<script src="../site_libs/quarto-html/quarto.js"></script>
-<script src="../site_libs/quarto-html/popper.min.js"></script>
-<script src="../site_libs/quarto-html/tippy.umd.min.js"></script>
-<link href="../site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="../site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
-<script src="../site_libs/bootstrap/bootstrap.min.js"></script>
-<link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="../site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
+<script src="site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="site_libs/quarto-nav/headroom.min.js"></script>
+<script src="site_libs/clipboard/clipboard.min.js"></script>
+<script src="site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="site_libs/quarto-search/fuse.min.js"></script>
+<script src="site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="./">
+<script src="site_libs/quarto-listing/list.min.js"></script>
+<script src="site_libs/quarto-listing/quarto-listing.js"></script>
+<script src="site_libs/quarto-html/quarto.js"></script>
+<script src="site_libs/quarto-html/popper.min.js"></script>
+<script src="site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="site_libs/quarto-html/anchor.min.js"></script>
+<link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -65,22 +68,80 @@ ul.task-list li input[type="checkbox"] {
     "search-label": "Search"
   }
 }</script>
+<script>
 
+  window.document.addEventListener("DOMContentLoaded", function (_event) {
+    const listingTargetEl = window.document.querySelector('#listing-listing .list');
+    if (!listingTargetEl) {
+      // No listing discovered, do not attach.
+      return; 
+    }
 
-<link rel="stylesheet" href="../styles.css">
+    const options = {
+      valueNames: ['listing-Publication','listing-Year',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-Year-sort'] }],
+      
+      searchColumns: ["listing-Publication","listing-Year","listing-categories"],
+    };
+
+    window['quarto-listings'] = window['quarto-listings'] || {};
+    window['quarto-listings']['listing-listing'] = new List('listing-listing', options);
+
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  });
+
+  window.addEventListener('hashchange',() => {
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  })
+  </script>
+
+  <script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
+  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
+
+<script type="text/javascript">
+const typesetMath = (el) => {
+  if (window.MathJax) {
+    // MathJax Typeset
+    window.MathJax.typeset([el]);
+  } else if (window.katex) {
+    // KaTeX Render
+    var mathElements = el.getElementsByClassName("math");
+    var macros = [];
+    for (var i = 0; i < mathElements.length; i++) {
+      var texText = mathElements[i].firstChild;
+      if (mathElements[i].tagName == "SPAN") {
+        window.katex.render(texText.data, mathElements[i], {
+          displayMode: mathElements[i].classList.contains('display'),
+          throwOnError: false,
+          macros: macros,
+          fleqn: false
+        });
+      }
+    }
+  }
+}
+window.Quarto = {
+  typesetMath
+};
+</script>
+
+<link rel="stylesheet" href="styles.css">
 </head>
 
-<body class="nav-fixed fullcontent">
+<body class="nav-fixed">
 
 <div id="quarto-search-results"></div>
   <header id="quarto-header" class="headroom fixed-top">
     <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
       <div class="navbar-container container-fluid">
       <div class="navbar-brand-container mx-auto">
-    <a href="../index.html" class="navbar-brand navbar-brand-logo">
-    <img src="../logo.png" alt="" class="navbar-logo">
+    <a href="./index.html" class="navbar-brand navbar-brand-logo">
+    <img src="./logo.png" alt="" class="navbar-logo">
     </a>
-    <a class="navbar-brand" href="../index.html">
+    <a class="navbar-brand" href="./index.html">
     <span class="navbar-title">VisionLabels</span>
     </a>
   </div>
@@ -91,15 +152,15 @@ ul.task-list li input[type="checkbox"] {
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll me-auto">
   <li class="nav-item">
-    <a class="nav-link" href="../people.html"> 
+    <a class="nav-link" href="./people.html"> 
 <span class="menu-text">People</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="../projects.html"> 
+    <a class="nav-link" href="./projects.html"> 
 <span class="menu-text">Projects</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="../publications.html"> 
+    <a class="nav-link active" href="./publications.html" aria-current="page"> 
 <span class="menu-text">Publications</span></a>
   </li>  
 </ul>
@@ -113,35 +174,173 @@ ul.task-list li input[type="checkbox"] {
 <div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
 <!-- sidebar -->
 <!-- margin-sidebar -->
-    
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        
+    <h5 class="quarto-listing-category-title">Categories</h5><div class="quarto-listing-category category-default"><div class="category" data-category="">All <span class="quarto-category-count">(12)</span></div><div class="category" data-category="Attention">Attention <span class="quarto-category-count">(7)</span></div><div class="category" data-category="Eye movements">Eye movements <span class="quarto-category-count">(4)</span></div><div class="category" data-category="Multiple Object Tracking">Multiple Object Tracking <span class="quarto-category-count">(6)</span></div><div class="category" data-category="Neural networks">Neural networks <span class="quarto-category-count">(2)</span></div><div class="category" data-category="Scene memory">Scene memory <span class="quarto-category-count">(5)</span></div><div class="category" data-category="Scene perception">Scene perception <span class="quarto-category-count">(1)</span></div></div></div>
 <!-- main -->
-<div class="quarto-about-trestles">
-  <div class="about-entity">
-    <img src="jirilukavsky.jpg" class="about-image
-  round " style="height: 20em; width: 20em;">
+<main class="content" id="quarto-document-content">
+
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">Jiří Lukavský</h1>
-  <div class="quarto-categories">
-    <div class="quarto-category">Researcher</div>
-  </div>
-  </div>
-<div class="quarto-title-meta">
-  </div>
-</header>
-  </div>
-  <div class="about-contents"><main class="content" id="quarto-document-content">
-<p>I am interested in <strong>human vision</strong>, <strong>attention</strong> and <strong>memory</strong>.</p>
-<hr>
-<p>If you see a photograph, what do you actually remember? Can you pay attention to multiple objects simultaneously? What is the attention and what is a strategy?</p>
-<p>See also <a href="https://lukavsky.info">my personal page</a>.</p>
-<hr>
-<p><a href="https://scholar.google.com/citations?user=K6NaHlMAAAAJ">Scholar</a> - <a href="https://github.com/jirilukavsky">Github</a> - <a href="https://scholar.social/@jlukavsky">Mastodon</a> - <a href="https://osf.io/3elgf/">OSF</a></p>
-
-
-</main></div>
+<h1 class="title">Publications</h1>
 </div>
- <!-- /main -->
+
+
+
+<div class="quarto-title-meta">
+
+    
+  
+    
+  </div>
+  
+
+
+</header>
+
+
+<p>Selected papers relevant to visual perception, attention and memory.</p>
+
+
+
+
+<div class="quarto-listing quarto-listing-container-table" id="listing-listing">
+<div class="listing-actions-group">
+   <div class="input-group input-group-sm quarto-listing-sort">
+     <span class="input-group-text"><i class="bi bi-sort-down"></i></span>
+     <select id="listing-listing-sort" class="form-select" aria-label="Order By" onchange="window['quarto-listings']['listing-listing'].sort(this.options[this.selectedIndex].value, { order: this.options[this.selectedIndex].getAttribute('data-direction')})">
+       <option value="" disabled="" selected="" hidden="">Order By</option>
+       <option value="index" data-direction="asc">Default</option>
+         <option value="listing-Publication" data-direction="asc">
+          Publication
+        </option>
+         <option value="listing-Year-sort" data-direction="asc">
+          Year (Low to High)
+        </option>
+         <option value="listing-Year-sort" data-direction="desc">
+          Year (High to Low)
+        </option>
+     </select>
+  </div>
+    <div class="input-group input-group-sm quarto-listing-filter">
+      <span class="input-group-text"><i class="bi bi-search"></i></span>
+      <input type="text" class="search form-control" placeholder="Filter">
+    </div>
+</div>
+<table class="quarto-listing-table table">
+<thead>
+<tr>
+<th>
+<a class="sort" data-sort="listing-Publication" onclick="if (this.classList.contains('sort-asc')) { this.classList.add('sort-desc'); this.classList.remove('sort-asc') } else { this.classList.add('sort-asc'); this.classList.remove('sort-desc')} return false;">Publication</a>
+</th>
+<th>
+<a class="sort" data-sort="listing-Year-sort" onclick="if (this.classList.contains('sort-asc')) { this.classList.add('sort-desc'); this.classList.remove('sort-asc') } else { this.classList.add('sort-asc'); this.classList.remove('sort-desc')} return false;">Year</a>
+</th>
+</tr>
+</thead>
+<tbody class="list">
+<tr data-index="0" data-categories="Scene memory" data-listing-year-sort="2024">
+<td>
+<span class="listing-Publication">Děchtěrenko, F., Bainbridge, W. A., &amp; Lukavský, J. (2024). Visual free recall and recognition in art students and laypeople. <em>Memory &amp; Cognition</em>. <a href="https://doi.org/10.3758/s13421-024-01607-7">https://doi.org/10.3758/s13421-024-01607-7</a></span>
+</td>
+<td>
+<span class="listing-Year">2024</span>
+</td>
+</tr>
+<tr data-index="1" data-categories="Multiple Object Tracking,Attention,Eye movements" data-listing-year-sort="2023">
+<td>
+<span class="listing-Publication">Lukavský, J., &amp; Meyerhoff, H. S. (2023). Gaze coherence reveals distinct tracking strategies in multiple object and multiple identity tracking. <em>Psychonomic Bulletin &amp; Review</em>. <a href="https://doi.org/10.3758/s13423-023-02417-9">https://doi.org/10.3758/s13423-023-02417-9</a></span>
+</td>
+<td>
+<span class="listing-Year">2023</span>
+</td>
+</tr>
+<tr data-index="2" data-categories="Multiple Object Tracking,Attention" data-listing-year-sort="2022">
+<td>
+<span class="listing-Publication">Děchtěrenko, F., Jakubková, D., Lukavský, J., &amp; Howard, C. J. (2022). Tracking multiple fish. <em>PeerJ</em>, <em>10</em>, e13031. <a href="https://doi.org/10.7717/peerj.13031">https://doi.org/10.7717/peerj.13031</a></span>
+</td>
+<td>
+<span class="listing-Year">2022</span>
+</td>
+</tr>
+<tr data-index="3" data-categories="Scene memory" data-listing-year-sort="2022">
+<td>
+<span class="listing-Publication">Děchtěrenko, F., &amp; Lukavský, J. (2022). False memories when viewing overlapping scenes. <em>PeerJ</em>, <em>10</em>, e13187. <a href="https://doi.org/10.7717/peerj.13187">https://doi.org/10.7717/peerj.13187</a></span>
+</td>
+<td>
+<span class="listing-Year">2022</span>
+</td>
+</tr>
+<tr data-index="4" data-categories="Multiple Object Tracking,Attention" data-listing-year-sort="2022">
+<td>
+<span class="listing-Publication">Lukavský, J., Oksama, L., &amp; Děchtěrenko, F. (2022). Multiple object tracking with extended occlusions. <em>Quarterly Journal of Experimental Psychology</em>, <em>76</em>(9), 2094–2106. <a href="https://doi.org/10.1177/17470218221142463">https://doi.org/10.1177/17470218221142463</a></span>
+</td>
+<td>
+<span class="listing-Year">2022</span>
+</td>
+</tr>
+<tr data-index="5" data-categories="Scene memory,Neural networks" data-listing-year-sort="2021">
+<td>
+<span class="listing-Publication">Děchtěrenko, F., Lukavský, J., &amp; Štipl, J. (2021). False memories for scenes using the DRM paradigm. <em>Vision Research</em>, <em>178</em>, 48–59. <a href="https://doi.org/10.1016/j.visres.2020.09.009">https://doi.org/10.1016/j.visres.2020.09.009</a></span>
+</td>
+<td>
+<span class="listing-Year">2021</span>
+</td>
+</tr>
+<tr data-index="6" data-categories="Scene perception,Attention" data-listing-year-sort="2019">
+<td>
+<span class="listing-Publication">Lukavský, J. (2019). Scene categorization in the presence of a distractor. <em>Journal of Vision</em>, <em>19</em>(2), 6. <a href="https://doi.org/10.1167/19.2.6">https://doi.org/10.1167/19.2.6</a></span>
+</td>
+<td>
+<span class="listing-Year">2019</span>
+</td>
+</tr>
+<tr data-index="7" data-categories="Multiple Object Tracking,Attention,Eye movements" data-listing-year-sort="2017">
+<td>
+<span class="listing-Publication">Děchtěrenko, F., Lukavský, J., &amp; Holmqvist, K. (2017). Flipping the stimulus: Effects on scanpath coherence? <em>Behavior Research Methods</em>, <em>49</em>(1), 382–393. <a href="https://doi.org/10.3758/s13428-016-0708-2">https://doi.org/10.3758/s13428-016-0708-2</a></span>
+</td>
+<td>
+<span class="listing-Year">2017</span>
+</td>
+</tr>
+<tr data-index="8" data-categories="Scene memory,Neural networks" data-listing-year-sort="2017">
+<td>
+<span class="listing-Publication">Lukavský, J., &amp; Děchtěrenko, F. (2017). Visual properties and memorising scenes: Effects of image-space sparseness and uniformity. <em>Attention, Perception, &amp; Psychophysics</em>, <em>79</em>(7), 2044–2054. <a href="https://doi.org/10.3758/s13414-017-1375-9">https://doi.org/10.3758/s13414-017-1375-9</a></span>
+</td>
+<td>
+<span class="listing-Year">2017</span>
+</td>
+</tr>
+<tr data-index="9" data-categories="Multiple Object Tracking,Attention,Eye movements" data-listing-year-sort="2016">
+<td>
+<span class="listing-Publication">Lukavský, J., &amp; Děchtěrenko, F. (2016). Gaze position lagging behind scene content in multiple object tracking: Evidence from forward and backward presentations. <em>Attention, Perception, &amp; Psychophysics</em>, <em>78</em>(8), 2456–2468. <a href="https://doi.org/10.3758/s13414-016-1178-4">https://doi.org/10.3758/s13414-016-1178-4</a></span>
+</td>
+<td>
+<span class="listing-Year">2016</span>
+</td>
+</tr>
+<tr data-index="10" data-categories="Scene memory" data-listing-year-sort="2014">
+<td>
+<span class="listing-Publication">Lukavský, J. (2014). Changes in boundary extension effect during spatial confinement. <em>Visual Cognition</em>, <em>22</em>(7), 996–1012. <a href="https://doi.org/10.1080/13506285.2014.941966">https://doi.org/10.1080/13506285.2014.941966</a></span>
+</td>
+<td>
+<span class="listing-Year">2014</span>
+</td>
+</tr>
+<tr data-index="11" data-categories="Multiple Object Tracking,Attention,Eye movements" data-listing-year-sort="2013">
+<td>
+<span class="listing-Publication">Lukavský, J. (2013). Eye movements in repeated multiple object tracking. <em>Journal of Vision</em>, <em>13</em>(7), 9–9. <a href="https://doi.org/10.1167/13.7.9">https://doi.org/10.1167/13.7.9</a></span>
+</td>
+<td>
+<span class="listing-Year">2013</span>
+</td>
+</tr>
+</tbody>
+</table>
+<div class="listing-no-matching d-none">
+No matching items
+</div>
+</div></main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
 window.document.addEventListener("DOMContentLoaded", function (event) {
   const toggleBodyColorMode = (bsSheetEl) => {
@@ -162,6 +361,13 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     }
   }
   toggleBodyColorPrimary();  
+  const icon = "";
+  const anchorJS = new window.AnchorJS();
+  anchorJS.options = {
+    placement: 'right',
+    icon: icon
+  };
+  anchorJS.add('.anchored');
   const isCodeAnnotation = (el) => {
     for (const clz of el.classList) {
       if (clz.startsWith('code-annotation-')) {                     

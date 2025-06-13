@@ -1,0 +1,13 @@
+---
+title: "Projects"
+listing: 
+  contents: 
+    - projects.yml
+  field-types:
+    Start: number
+    End: number
+  type: table
+  # categories: true
+---
+
+Selected projects we have worked on. 
