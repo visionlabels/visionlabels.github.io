@@ -1,6 +1,6 @@
 [
   {
-    "listing": "/projects.html",
+    "listing": "/publications.html",
     "items": []
   },
   {
@@ -8,11 +8,12 @@
     "items": [
       "/members/filipdechterenko.html",
       "/members/jirilukavsky.html",
-      "/members/josefmana.html"
+      "/members/josefmana.html",
+      "/members/nataliesimcik.html"
     ]
   },
   {
-    "listing": "/publications.html",
+    "listing": "/projects.html",
     "items": []
   }
 ]

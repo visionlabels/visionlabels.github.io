@@ -1,0 +1,12 @@
+---
+title: "Natalie Šimčík"
+image: person_she.jpg
+categories: Doctoral student
+description: ""
+about:
+  template: trestles # jolla
+  image: person_she.jpg
+  image-shape: round
+---
+  
+About Natalie
