@@ -1,18 +1,19 @@
 ---
 title: "Josef Mana"
-image: person_he.jpg
+image: josefmana.jpg
 categories: Post-doc
 description: ""
 about:
   template: trestles # jolla
-  image: person_he.jpg
+  image: josefmana.jpg
   image-shape: round
 ---
   
-About Josef
+I’m an aspiring mathematical psychologist fascinated by the cognitive capacities of neural networks, whether embodied in humans, other animals, or implemented in machines. My current primary interest lies in understanding what people attend to and why.
 
 ---
 
+[ORCID](https://orcid.org/0000-0002-7817-3978) - 
 [Scholar](https://scholar.google.com/citations?user=0CyuYaMAAAAJ) - 
 [Github](https://github.com/josefmana) - 
 <!-- [Mastodon](https://scholar.social/@jlukavsky) -  -->
