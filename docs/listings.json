@@ -6,12 +6,12 @@
   {
     "listing": "/people.html",
     "items": [
-      "/members/jirilukavsky.html",
-      "/members/filipdechterenko.html",
       "/members/josefmana.html",
       "/members/nataliesimcik.html",
       "/members/ivanakapounova.html",
-      "/members/petrjanplos.html"
+      "/members/petrjanplos.html",
+      "/members/filipdechterenko.html",
+      "/members/jirilukavsky.html"
     ]
   },
   {
