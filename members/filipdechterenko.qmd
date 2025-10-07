@@ -1,5 +1,6 @@
 ---
 title: "Filip Děchtěrenko"
+order: 2
 image: filipdechterenko-small.jpg
 categories: Researcher
 description: ""
