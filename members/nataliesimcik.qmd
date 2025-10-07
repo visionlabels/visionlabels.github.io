@@ -1,5 +1,6 @@
 ---
 title: "Natalie Šimčík"
+order: 4
 image: person_she.jpg
 categories: Doctoral student
 description: ""

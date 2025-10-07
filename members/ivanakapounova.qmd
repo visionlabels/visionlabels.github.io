@@ -1,0 +1,16 @@
+---
+title: "Ivana Kapounová"
+order: 5
+image: ivanakapounova-small.jpg
+categories: Doctoral student
+description: ""
+about:
+  template: trestles # jolla
+  image: ivanakapounova.jpg
+  image-shape: round
+---
+  
+I focus on decision-making in multiple-choice tasks, using behavioral and eye-tracking data. I especially enjoy the intersection of psychology and mathematics.
+
+---
+

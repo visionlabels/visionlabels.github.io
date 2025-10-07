@@ -1,0 +1,17 @@
+---
+title: "Petr Jan Plos"
+order: 6
+image: petrjanplos-small.jpg
+categories: Doctoral student
+description: ""
+about:
+  template: trestles # jolla
+  image: petrjanplos.jpg
+  image-shape: round
+---
+  
+I study the use of artificial intelligence in experimental psychology, with a focus on visual memory. My research uses AI-based tools to generate images, allowing new ways to explore what people remember and how memory content can be investigated.
+
+---
+
+[OSF](https://osf.io/4ngha/)

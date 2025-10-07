@@ -1,5 +1,6 @@
 ---
 title: "Josef Mana"
+order: 3
 image: josefmana.jpg
 categories: Post-doc
 description: ""

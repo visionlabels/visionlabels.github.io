@@ -1,19 +1,21 @@
 [
   {
+    "listing": "/publications.html",
+    "items": []
+  },
+  {
     "listing": "/people.html",
     "items": [
-      "/members/filipdechterenko.html",
       "/members/jirilukavsky.html",
+      "/members/filipdechterenko.html",
       "/members/josefmana.html",
-      "/members/nataliesimcik.html"
+      "/members/nataliesimcik.html",
+      "/members/ivanakapounova.html",
+      "/members/petrjanplos.html"
     ]
   },
   {
     "listing": "/projects.html",
-    "items": []
-  },
-  {
-    "listing": "/publications.html",
     "items": []
   }
 ]

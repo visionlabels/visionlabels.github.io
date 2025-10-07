@@ -8,6 +8,8 @@ listing:
   categories: true
   fields: [image, title, ]
   grid-item-align: center
+  sort:
+    - "order"
 ---
 
 <!-- Direct links [JL](./members/jirilukavsky.html),
